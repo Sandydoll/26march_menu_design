@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-width: 100;
+    overflow-x: hidden;
+    background-color: aquamarine;
+    height: 100vh;
+}
+#menu-container{
+    color:black;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding: 5px 8px;
+   background-color: rgb(214, 214, 214);
+}
+.img-design{
+    width: 30px;
+    height: 30px;
+}
+#searchbox{
+    background-color:transparent;
+    border: 2px solid black;
+    border-radius: 15px;
+    height: 20px;
+    font-size: 12px;
+    padding: 2px 14px;
+    width: 140px;
+}
+::placeholder{
+    color:blue;
+    opacity: .5;
+}
+#menu-start{
+display: flex;
+justify-content: center;
+gap: 4px;
+}
+
+
+#menu-center{
+    display: flex;
+   justify-content: flex-end;
+   gap: 10px;
+    width: 100%;
+}
+.icons1{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    
+}
+#ico1{
+    
+    width: 20px;
+    height: 20px;
+}
+
+sup{
+    background-color: red;
+    color: black;
+    font-size: 10px;
+    padding: 3px;
+    border-radius: 50%;
+}
+
+span{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+}
+#menu-end{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+     width: 100%;
+ }
+#user{
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px; 
+    width: 50%;
+}
+#icons{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+#icons2{
+    width: 20px;
+    height: 20px;
+}
+.bg-headerdesign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg-image{
+    width: 70%;
+    height: 40vh;
+}
+
+
